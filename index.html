@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Productivity Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Student Productivity Dashboard</h1>
+
+    <div class="card">
+      <h2>Daily Study Goal</h2>
+      <div class="row">
+        <input type="number" id="goalInput" placeholder="Hours">
+        <button onclick="setGoal()">Set</button>
+      </div>
+      <p id="goalText">No goal set</p>
+      <div class="progress-container">
+         <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p id="progressPercent">0% completed</p>
+
+      <div class="row">
+        <input type="number" id="completedInput" placeholder="Hours studied">
+        <button onclick="updateProgress()">Update</button>
+      </div>
+
+
+    </div>
+
+    <div class="card">
+      <h2>Task List</h2>
+      <div class="row">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <p id="taskStats">Completed: 0 / 0</p>
+
+      <ul id="taskList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
