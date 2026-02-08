@@ -20,15 +20,6 @@ This project helps students manage daily tasks, set study goals, and track progr
 - CSS3
 - JavaScript (Vanilla)
 
----
-
-## 📸 Preview
-(Add screenshots here after deployment)
-
----
-
-## 🔗 Live Demo
-(Will be updated using GitHub Pages)
 
 ---
 
